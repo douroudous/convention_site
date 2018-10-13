@@ -267,7 +267,7 @@
 		margin-bottom:20px;
 	}
 
-	.about-right{
+	.about-right, .about-left {
 		h1{
 			margin-bottom:15px;
 		}
@@ -277,7 +277,6 @@
 				font-weight:500;
 			}
 		}
-		padding-right:8%;
 		@media(max-width:1366px){
 			padding:15px;
 			h1{
@@ -289,6 +288,14 @@
 		}
 	}
 
+	.about-right {
+		padding-right:8%;
+	}
+
+	.about-left {
+		padding-left:8%;
+	}
+
 
 }
 
@@ -298,6 +305,7 @@
 //--------- Start video-sec-area  Area -------------//
 
 .video-sec-area{
+	background-color:$black;
 
 	.video-left{
 		.primary-btn{
@@ -323,7 +331,7 @@
 		}
 		p{
 			span{
-				color:#000;
+				color:$white;
 				font-weight:400;
 			}
 		}
@@ -397,7 +405,7 @@
 	    background: rgba(127,127,127, 0.5);
 	    margin-left: 5px;
 	    margin-right: 5px;
-	    @inlcude transition();
+	    @include transition();
 	}
 
 	.owl-dot.active {
@@ -408,7 +416,7 @@
 }
 
 .single-speaker{
-	background-color:#04091e;
+	background-color:$black;
 	h6{
 		font-size:12px;
 		font-weight: 300;
