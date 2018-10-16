@@ -259,7 +259,7 @@
 
 .home-aboutus-area{
 	// background-color:$black;
-	background-color: #25274D;
+	background-color: $navy;
 	.top-title{
 		color:$primary-color;
 		letter-spacing:2px;
@@ -307,7 +307,7 @@
 
 .video-sec-area{
 	// background-color:$black;
-	background-color: #25274D;
+	background-color: $navy;
 
 	.video-left{
 		.primary-btn{
@@ -389,6 +389,7 @@
 
 
 .spekers-area{
+	background-color: $navy;
 	.owl-dots {
 		text-align:center;
 	    bottom: 5px;
