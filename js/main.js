@@ -257,6 +257,10 @@ $(document).ready(function(){
 			$('.overlay').hide();
 		});
 
+		$('.owl-dot').on('click', function() {
+			$('.overlay').show();
+		});
+
 
 
 
