@@ -253,6 +253,10 @@ $(document).ready(function(){
         }
     }, 1000);
 
+		$('.overlay').on('click', function() {
+			$('.overlay').hide();
+		});
+
 
 
 
